@@ -10,7 +10,7 @@ conda activate yolov5
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge -y
 ```
 
-```
+```bash
 git clone https://github.com/ultralytics/yolov5
 cd yolov5
 pip install -r requirements.txt
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## Environment test
 
 change dir
-```
+```bash
 cd yolov5/
 ```
 
@@ -46,7 +46,7 @@ results images like that show if you corretly installed environment
 ![image](https://user-images.githubusercontent.com/36920367/136014975-4a71ef16-dc5f-4ec4-9ed9-5ca22ff7e98f.png)
 
 
-```bash
+```python
 python detect.py --source 0  # webcam
                             file.jpg  # image 
                             file.mp4  # video
