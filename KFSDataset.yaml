@@ -1,0 +1,13 @@
+# Train/val/test sets as 
+# 1) dir: path/to/imgs, 
+# 2) file: path/to/imgs.txt, 
+# or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./dataset  # 데이터 셋 최상위 디렉토리 설정
+train: # train 데이터셋 경로 설정 (path 를 기준으로 디렉토리 설정)
+  - train
+val:   # val 데이터셋 경로 설정  (path 를 기준으로 디렉토리 설정)
+  - value 
+
+# Classes
+nc: 1  # number of classes
+names: ['Danger'] 

@@ -58,6 +58,20 @@ python detect.py --source 0  # webcam
 
 ## 3. Samples
 
+### 3.1. custom train datasets with CVAT
+
+1. Download labeled datasets in CVAT server ( EXPORT DATASET YOLO 1.1 )
+2. Modify Downloaded(yaml) files reference this [URL](https://github.com/ultralytics/yolov5/issues/12)
+- like [this](KFSDataset.yml)
+3. Train excute
+```bash
+python train.py --img 640 --batch 16 --epochs 3 --data KFSDataset.yaml --weights yolov5s.pt
+```
+
+reference [this](https://github.com/ultralytics/yolov5/issues/5040#issuecomment-934619308) issue if you got a error like this
+```bash
+UnicodeDecodeError: 'cp949' codec can't decode byte 0xf0 in position 9: illegal multibyte sequence
+```
 
 
 ## 4. Referenced
