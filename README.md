@@ -19,6 +19,7 @@ pip install -r requirements.txt
 ## 2. Environment test
 
 change dir
+
 ```bash
 cd yolov5/
 ```
@@ -45,10 +46,9 @@ results images like that show if you corretly installed environment
 
 ![image](https://user-images.githubusercontent.com/36920367/136014975-4a71ef16-dc5f-4ec4-9ed9-5ca22ff7e98f.png)
 
-
 ```python
 python detect.py --source 0  # webcam
-                            file.jpg  # image 
+                            file.jpg  # image
                             file.mp4  # video
                             path/  # directory
                             path/*.jpg  # glob
