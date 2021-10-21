@@ -1,1 +1,5 @@
 yolov5
+export/
+test/
+train/
+valid/
