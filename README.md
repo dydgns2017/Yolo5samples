@@ -73,7 +73,8 @@ reference [this](https://github.com/ultralytics/yolov5/issues/5040#issuecomment-
 UnicodeDecodeError: 'cp949' codec can't decode byte 0xf0 in position 9: illegal multibyte sequence
 ```
 
-refrence [this](https://public.roboflow.com/object-detection/raccoon/38) sample datasets
+
+### 3.2 [Racoon Dataset Train & Detect Sample](./Raccon_sample)
 
 ## 4. Referenced
 
