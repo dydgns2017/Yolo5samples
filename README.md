@@ -73,8 +73,10 @@ reference [this](https://github.com/ultralytics/yolov5/issues/5040#issuecomment-
 UnicodeDecodeError: 'cp949' codec can't decode byte 0xf0 in position 9: illegal multibyte sequence
 ```
 
+refrence [this](https://public.roboflow.com/object-detection/raccoon/38) sample datasets
 
 ## 4. Referenced
 
 - https://github.com/ultralytics/yolov5
+- https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch
 - https://towardsdatascience.com/yolo-v5-is-here-b668ce2a4908
