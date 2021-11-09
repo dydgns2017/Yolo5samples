@@ -13,3 +13,6 @@ move yaml file to `yolov5/data` folder
 ```bash
 python train.py --img 640 --batch 16 --epochs 3 --data racoon.yaml --weights yolov5s.pt
 ```
+
+### 3. Excution
+
